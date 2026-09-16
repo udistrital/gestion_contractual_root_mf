@@ -1,17 +1,17 @@
 # gestion_contractual_compras_root_mf
 
-El Root contiene la lógica de Single-SPA del sistema de gestion contractual (Argo) y gestiona todos los microfrontends dentro de la página web, ayuda a gestionar la comunicación entre 
+El Root contiene la lógica de Single-SPA del sistema de gestion contractual (Argo) y gestiona todos los microfrontends dentro de la página web, ayuda a gestionar la comunicación entre
 ellos y contiene el consumo de los assets, paleta de colores y favicon del sistema.
-
 
 ## Especificaciones Técnicas
 
 ### Tecnologías Implementadas y Versiones
-* [Angular](https://angular.io/) 17.3
-* [Node](https://nodejs.org/es/) 18.20.0
 
+- [Angular](https://angular.io/) 17.3
+- [Node](https://nodejs.org/es/) 18.20.0
 
 ### Variables de Entorno
+
 ```bash
 export const environment = {
     production: [Booleano que indica si está habilitado],
@@ -34,34 +34,35 @@ export const environment = {
 };
 ```
 
-
 ### Ejecución del Proyecto
-
 
 1. clonar el repositorio:
    ```shell
    git clone https://github.com/udistrital/gestion_contractual_compras_root_mf.git
-    ```
-3. Acceder al directorio del repositorio clonado:
+   ```
+2. Acceder al directorio del repositorio clonado:
    ```bash
    cd gestion_contractual_compras_root_mf
    ```
-4. Instalar las dependencias:
+3. Instalar las dependencias:
+
    ```bash
    npm install
    ```
 
-5. Iniciar el Root:
+4. Iniciar el Root:
    ```bash
    npm start
    ```
 
 ### Ejecución Dockerfile
+
 ```shell
 # Does not apply
 ```
 
 ### Ejecución docker-compose
+
 ```shell
 # Does not apply
 ```
@@ -69,9 +70,11 @@ export const environment = {
 ### Ejecución Pruebas
 
 Pruebas unitarias
+
 ```shell
 # Developing
 ```
+
 ## Estado CI
 
 ```bash
