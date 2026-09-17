@@ -7,7 +7,9 @@ ellos y contiene el consumo de los assets, paleta de colores y favicon del siste
 
 ### Tecnologías Implementadas y Versiones
 
-- [Angular](https://angular.io/) 17.3
+- [Single-SPA](https://single-spa.js.org/) 6.0
+- [TypeScript](https://www.typescriptlang.org/) 5.6
+- [Webpack](https://webpack.js.org/) 5.94
 - [Node](https://nodejs.org/es/) 18.20.0
 
 ### Variables de Entorno
@@ -29,7 +31,14 @@ export const environment = {
       REDIRECT_URL: [URL de redirección],
       SIGN_OUT_URL: [URL de Cerrar Sesión - logout],
       SIGN_OUT_REDIRECT_URL: [URL de redirección despues de cerrar sesion],
-      AUTENTICACION_MID:  [URL de API MID Autenticación],
+      AUTENTICACION_MID: [URL de API MID Autenticación],
+    },
+    parcels: {
+      "@udistrital/root-config": [URL del bundle del root-config],
+      "@udistrital/core-mf": [URL del microfrontend core],
+      "@udistrital/argo-gestion-contractual-mf": [URL del microfrontend de gestión contractual],
+      "@udistrital/argo-actas-inicio-mf": [URL del microfrontend de actas de inicio],
+      "@udistrital/argo-poliza-mf": [URL del microfrontend de pólizas],
     },
 };
 ```
@@ -87,6 +96,6 @@ This file is part of gestion_contractual_compras_root_mf.
 
 gestion_contractual_compras_root_mf is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-sisifo_root is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+gestion_contractual_compras_root_mf is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with novedades_crud. If not, see https://www.gnu.org/licenses/.
+You should have received a copy of the GNU General Public License along with gestion_contractual_compras_root_mf. If not, see https://www.gnu.org/licenses/.
