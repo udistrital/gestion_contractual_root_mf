@@ -12,16 +12,20 @@ export const environment = {
     CLIENTE_ID: "KICitYwk2svyi4f7hNrzUoel46sa",
     RESPONSE_TYPE: "id_token token",
     SCOPE: "openid email role documento",
-    REDIRECT_URL: "https://pruebasargomicroclientes.portaloas.udistrital.edu.co",
+    REDIRECT_URL:
+      "https://pruebasargomicroclientes.portaloas.udistrital.edu.co",
     SIGN_OUT_URL:
       "https://autenticacion.portaloas.udistrital.edu.co/oidc/logout",
-    SIGN_OUT_REDIRECT_URL: "https://pruebasargomicroclientes.portaloas.udistrital.edu.co",
+    SIGN_OUT_REDIRECT_URL:
+      "https://pruebasargomicroclientes.portaloas.udistrital.edu.co",
     AUTENTICACION_MID:
       "https://autenticacion.portaloas.udistrital.edu.co/apioas/autenticacion_mid/v1/token/userRol",
   },
   parcels: {
-    "@udistrital/root-config": "https://pruebasargomicroclientes.portaloas.udistrital.edu.co/udistrital-root-config.js",
-    "@udistrital/core-mf": "https://pruebascoreclientes.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/root-config":
+      "https://pruebasargomicroclientes.portaloas.udistrital.edu.co/udistrital-root-config.js",
+    "@udistrital/core-mf":
+      "https://pruebascoreclientes.portaloas.udistrital.edu.co/main.js",
     "@udistrital/argo-poliza-mf": "//localhost:4203/main.js",
   },
 };

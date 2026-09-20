@@ -1,17 +1,19 @@
 # gestion_contractual_compras_root_mf
 
-El Root contiene la lógica de Single-SPA del sistema de gestion contractual (Argo) y gestiona todos los microfrontends dentro de la página web, ayuda a gestionar la comunicación entre 
+El Root contiene la lógica de Single-SPA del sistema de gestion contractual (Argo) y gestiona todos los microfrontends dentro de la página web, ayuda a gestionar la comunicación entre
 ellos y contiene el consumo de los assets, paleta de colores y favicon del sistema.
-
 
 ## Especificaciones Técnicas
 
 ### Tecnologías Implementadas y Versiones
-* [Angular](https://angular.io/) 17.3
-* [Node](https://nodejs.org/es/) 18.20.0
 
+- [Single-SPA](https://single-spa.js.org/) 6.0
+- [TypeScript](https://www.typescriptlang.org/) 5.6
+- [Webpack](https://webpack.js.org/) 5.94
+- [Node](https://nodejs.org/es/) 18.20.0
 
 ### Variables de Entorno
+
 ```bash
 export const environment = {
     production: [Booleano que indica si está habilitado],
@@ -29,39 +31,47 @@ export const environment = {
       REDIRECT_URL: [URL de redirección],
       SIGN_OUT_URL: [URL de Cerrar Sesión - logout],
       SIGN_OUT_REDIRECT_URL: [URL de redirección despues de cerrar sesion],
-      AUTENTICACION_MID:  [URL de API MID Autenticación],
+      AUTENTICACION_MID: [URL de API MID Autenticación],
+    },
+    parcels: {
+      "@udistrital/root-config": [URL del bundle del root-config],
+      "@udistrital/core-mf": [URL del microfrontend core],
+      "@udistrital/argo-gestion-contractual-mf": [URL del microfrontend de gestión contractual],
+      "@udistrital/argo-actas-inicio-mf": [URL del microfrontend de actas de inicio],
+      "@udistrital/argo-poliza-mf": [URL del microfrontend de pólizas],
     },
 };
 ```
 
-
 ### Ejecución del Proyecto
-
 
 1. clonar el repositorio:
    ```shell
    git clone https://github.com/udistrital/gestion_contractual_compras_root_mf.git
-    ```
-3. Acceder al directorio del repositorio clonado:
+   ```
+2. Acceder al directorio del repositorio clonado:
    ```bash
    cd gestion_contractual_compras_root_mf
    ```
-4. Instalar las dependencias:
+3. Instalar las dependencias:
+
    ```bash
    npm install
    ```
 
-5. Iniciar el Root:
+4. Iniciar el Root:
    ```bash
    npm start
    ```
 
 ### Ejecución Dockerfile
+
 ```shell
 # Does not apply
 ```
 
 ### Ejecución docker-compose
+
 ```shell
 # Does not apply
 ```
@@ -69,9 +79,11 @@ export const environment = {
 ### Ejecución Pruebas
 
 Pruebas unitarias
+
 ```shell
 # Developing
 ```
+
 ## Estado CI
 
 ```bash
@@ -84,6 +96,6 @@ This file is part of gestion_contractual_compras_root_mf.
 
 gestion_contractual_compras_root_mf is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-sisifo_root is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+gestion_contractual_compras_root_mf is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with novedades_crud. If not, see https://www.gnu.org/licenses/.
+You should have received a copy of the GNU General Public License along with gestion_contractual_compras_root_mf. If not, see https://www.gnu.org/licenses/.
