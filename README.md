@@ -10,7 +10,8 @@ ellos y contiene el consumo de los assets, paleta de colores y favicon del siste
 - [Single-SPA](https://single-spa.js.org/) 6.0
 - [TypeScript](https://www.typescriptlang.org/) 5.6
 - [Webpack](https://webpack.js.org/) 5.94
-- [Node](https://nodejs.org/es/) 18.20.0
+- [Node](https://nodejs.org/es/) 24.x
+- [pnpm](https://pnpm.io/) 12.x
 
 ### Variables de Entorno
 
@@ -56,12 +57,12 @@ export const environment = {
 3. Instalar las dependencias:
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 4. Iniciar el Root:
    ```bash
-   npm start
+   pnpm start
    ```
 
 ### Ejecución Dockerfile
