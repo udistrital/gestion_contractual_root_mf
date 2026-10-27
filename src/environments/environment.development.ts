@@ -23,5 +23,7 @@ export const environment = {
     "@udistrital/root-config": "https://pruebasargomicroclientes.portaloas.udistrital.edu.co/udistrital-root-config.js",
     "@udistrital/core-mf": "https://pruebascoreclientes.portaloas.udistrital.edu.co/main.js",
     "@udistrital/argo-gestion-contractual-mf": "https://pruebasargogestioncontractual.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/novedades-mf":
+      "https://pruebasnovedadesv2.portaloas.udistrital.edu.co/main.js",
   },
 };
