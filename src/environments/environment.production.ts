@@ -25,6 +25,8 @@ export const environment = {
       "https://argomicroclientes.portaloas.udistrital.edu.co/udistrital-root-config.js",
     "@udistrital/core-mf":
       "https://coreclientes.portaloas.udistrital.edu.co/main.js",
+    "@udistrital/sisifo-usuario-rol-mf":
+      "https://gestionusuariorol.portaloas.udistrital.edu.co/main.js",
     "@udistrital/novedades-mf":
       "https://pruebasnovedadesv2.portaloas.udistrital.edu.co/main.js",
   },
